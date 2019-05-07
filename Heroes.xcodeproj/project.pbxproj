@@ -12,7 +12,7 @@
 		C52671232280762300A3A44B /* Hero.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52671212280762300A3A44B /* Hero.storyboard */; };
 		C52671252280762400A3A44B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C52671242280762400A3A44B /* Assets.xcassets */; };
 		C52671282280762400A3A44B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C52671262280762400A3A44B /* LaunchScreen.storyboard */; };
-		C5267130228076A100A3A44B /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C526712F228076A100A3A44B /* UIViewController+Extension.swift */; };
+		C5267130228076A100A3A44B /* StoryboardInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C526712F228076A100A3A44B /* StoryboardInitializable.swift */; };
 		C526713C22807F1C00A3A44B /* HeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C526713A22807F1C00A3A44B /* HeroTableViewCell.swift */; };
 		C526713F22807F5200A3A44B /* HeroTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C526713E22807F5200A3A44B /* HeroTableDataSource.swift */; };
 		C526714122807F8C00A3A44B /* HeroListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C526714022807F8C00A3A44B /* HeroListViewController.swift */; };
@@ -35,7 +35,7 @@
 		C52671242280762400A3A44B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C52671272280762400A3A44B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C52671292280762400A3A44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C526712F228076A100A3A44B /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		C526712F228076A100A3A44B /* StoryboardInitializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInitializable.swift; sourceTree = "<group>"; };
 		C526713A22807F1C00A3A44B /* HeroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTableViewCell.swift; sourceTree = "<group>"; };
 		C526713E22807F5200A3A44B /* HeroTableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTableDataSource.swift; sourceTree = "<group>"; };
 		C526714022807F8C00A3A44B /* HeroListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListViewController.swift; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				C526711D2280762300A3A44B /* AppDelegate.swift */,
-				C526712F228076A100A3A44B /* UIViewController+Extension.swift */,
+				C526712F228076A100A3A44B /* StoryboardInitializable.swift */,
 				C526715D2281447700A3A44B /* heroes.json */,
 				C5267146228080FE00A3A44B /* Services */,
 				C526713522807E1400A3A44B /* Presenters */,
@@ -250,7 +250,7 @@
 				C526715A2280A6E500A3A44B /* HeroDetailsView.swift in Sources */,
 				C526713C22807F1C00A3A44B /* HeroTableViewCell.swift in Sources */,
 				C526713F22807F5200A3A44B /* HeroTableDataSource.swift in Sources */,
-				C5267130228076A100A3A44B /* UIViewController+Extension.swift in Sources */,
+				C5267130228076A100A3A44B /* StoryboardInitializable.swift in Sources */,
 				C52671202280762300A3A44B /* RootViewController.swift in Sources */,
 				C526711E2280762300A3A44B /* AppDelegate.swift in Sources */,
 				C52671482280811700A3A44B /* HeroService.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  UIViewController+Extension.swift
+//  StoryboardInitializable.swift
 //  Heroes
 //
 //  Created by Ahmad Shabibul Hossain on 2019-05-06.
