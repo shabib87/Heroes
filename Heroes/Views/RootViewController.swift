@@ -3,6 +3,7 @@
 //  Heroes
 //
 //  Created by Ahmad Shabibul Hossain on 2019-05-06.
+//  MIT License
 //  Copyright © 2019 Ahmad Shabibul Hossain. All rights reserved.
 //
 
