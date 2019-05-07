@@ -9,7 +9,7 @@
 
 import UIKit
 
-class HeroTableDataSource: NSObject {
+final class HeroTableDataSource: NSObject {
     
     fileprivate let presenter: HeroListPresenter
     

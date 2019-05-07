@@ -9,7 +9,7 @@
 
 import Foundation
 
-class HeroDetailsPresenter: Presenter {
+final class HeroDetailsPresenter: Presenter {
     
     fileprivate let hero: HeroViewData
     weak private var view : HeroDetailsView?

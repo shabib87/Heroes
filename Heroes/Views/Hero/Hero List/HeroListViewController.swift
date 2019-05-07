@@ -9,7 +9,7 @@
 
 import UIKit
 
-class HeroListViewController: RootViewController {
+final class HeroListViewController: RootViewController {
 
     override class func instantiateFromStoryboard(presenter aPresenter: Presenter) -> UIViewController {
         let vc = UIStoryboard(name: "Hero", bundle: nil)

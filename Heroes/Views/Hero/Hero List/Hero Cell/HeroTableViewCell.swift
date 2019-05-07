@@ -9,7 +9,7 @@
 
 import UIKit
 
-class HeroTableViewCell: UITableViewCell {
+final class HeroTableViewCell: UITableViewCell {
 
     @IBOutlet fileprivate weak var nameLabel: UILabel!
     @IBOutlet fileprivate weak var emailLabel: UILabel!
