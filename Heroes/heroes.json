@@ -1,0 +1,43 @@
+[
+    {
+        "first_name": "Diana",
+        "last_name": "Prince",
+        "age": 30,
+        "alias": "Wonder Woman",
+        "profile_picture": "wonderWoman",
+        "email": "diana@wonderwoman.com"
+    },
+    {
+        "first_name": "Bruce",
+        "last_name": "Wayne",
+        "age": 37,
+        "alias": "Batman",
+        "profile_picture": "batman",
+        "email": "bruce@wayneenterprise.com"
+    },
+    {
+        "first_name": "Tony",
+        "last_name": "Stark",
+        "age": 48,
+        "alias": "Iron Man",
+        "profile_picture": "ironMan",
+        "email": "tony@starkindustries.com"
+    },
+    {
+        "first_name": "Jon",
+        "last_name": "Snow",
+        "age": 29,
+        "alias": "Lord Snow",
+        "profile_picture": "jonSnow",
+        "email": "jonsnow@uknownothing.com"
+    },
+    {
+        "first_name": "Natasha",
+        "last_name": "Romanoff",
+        "age": 39,
+        "alias": "Black Widow",
+        "profile_picture": "blackWidow",
+        "email": "nat@blackwidow.com"
+    }
+]
+
