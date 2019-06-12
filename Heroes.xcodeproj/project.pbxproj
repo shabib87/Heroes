@@ -25,6 +25,7 @@
 		C52671582280A6CE00A3A44B /* HeroDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52671572280A6CE00A3A44B /* HeroDetailsViewController.swift */; };
 		C526715A2280A6E500A3A44B /* HeroDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52671592280A6E500A3A44B /* HeroDetailsView.swift */; };
 		C526715E2281447700A3A44B /* heroes.json in Resources */ = {isa = PBXBuildFile; fileRef = C526715D2281447700A3A44B /* heroes.json */; };
+		C5DEBF8B22B15B57000B8FF0 /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DEBF8A22B15B57000B8FF0 /* Routing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		C52671572280A6CE00A3A44B /* HeroDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailsViewController.swift; sourceTree = "<group>"; };
 		C52671592280A6E500A3A44B /* HeroDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailsView.swift; sourceTree = "<group>"; };
 		C526715D2281447700A3A44B /* heroes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = heroes.json; sourceTree = "<group>"; };
+		C5DEBF8A22B15B57000B8FF0 /* Routing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				C526711D2280762300A3A44B /* AppDelegate.swift */,
 				C526712F228076A100A3A44B /* StoryboardInitializable.swift */,
+				C5DEBF8A22B15B57000B8FF0 /* Routing.swift */,
 				C526715D2281447700A3A44B /* heroes.json */,
 				C5267146228080FE00A3A44B /* Services */,
 				C526713522807E1400A3A44B /* Presenters */,
@@ -252,6 +255,7 @@
 				C526713F22807F5200A3A44B /* HeroTableDataSource.swift in Sources */,
 				C5267130228076A100A3A44B /* StoryboardInitializable.swift in Sources */,
 				C52671202280762300A3A44B /* RootViewController.swift in Sources */,
+				C5DEBF8B22B15B57000B8FF0 /* Routing.swift in Sources */,
 				C526711E2280762300A3A44B /* AppDelegate.swift in Sources */,
 				C52671482280811700A3A44B /* HeroService.swift in Sources */,
 				C5267145228080C200A3A44B /* HeroListPresenter.swift in Sources */,

@@ -48,7 +48,7 @@ final class HeroListViewController: RootViewController {
     }
 }
 
-extension HeroListViewController: HeroListView {
+extension HeroListViewController: HeroListView, CanDisplayHeroDetailsScreen {
     
     func reloadHeroList() {
         hasHeroes = true
@@ -68,8 +68,7 @@ extension HeroListViewController: HeroListView {
     }
     
     func gotoHeroDetails(presenter aPresenter: HeroDetailsPresenter) {
-        let detailsVC = HeroDetailsViewController.instantiateFromStoryboard(presenter: aPresenter)
-        self.navigationController?.pushViewController(detailsVC, animated: true)
+        displayHeroDetailsScreen(presenter: aPresenter)
     }
 }
 
